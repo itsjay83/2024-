@@ -1,0 +1,187 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+body {
+	margin: 0 auto;
+	width: 1200px;
+	height: 700px;
+	background-color: #fff;
+}
+
+.top {
+	width: 1200px;
+	height: 100px;
+}
+
+.logo {
+	float: left;
+	width: 200px;
+	height: 100px;
+	background-color: aqua;
+}
+
+.menu1 {
+	float: left;
+	width: 1000px;
+	height: 100px;
+	background-color: aquamarine;
+	position: relative;
+}
+
+.imgslide {
+	width: 1200px;
+	height: 300px;
+	background-color: turquoise;
+	position: relative;
+	overflow: hidden;
+}
+
+.imgs {
+	width: 3600px;
+	height: 300px;
+	position: absolute;
+}
+
+.imgslide li {
+	float: left;
+	width: 1200px;
+	height: 300px;
+	position: relative;
+}
+
+.imgtext {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #fff;
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #3333338d;
+}
+
+/* .imgslide img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+} */
+
+.contents {
+	width: 1200px;
+	height: 200px;
+}
+
+.notice {
+	float: left;
+	width: 400px;
+	height: 200px;
+	background-color: teal;
+}
+
+.gal {
+	float: left;
+	width: 400px;
+	height: 200px;
+	background-color: powderblue;
+}
+
+.sc {
+	float: left;
+	width: 400px;
+	height: 200px;
+	background-color: cadetblue;
+}
+
+.bottom {
+	width: 1200px;
+	height: 100px;
+}
+
+.bottom_left {
+	float: left;
+	width: 1000px;
+}
+
+.menu2 {
+	width: 1000px;
+	height: 50px;
+	background-color: aqua;
+}
+
+.copy {
+	width: 1000px;
+	height: 50px;
+	background-color: aquamarine;
+}
+
+.famsite {
+	float: left;
+	width: 200px;
+	height: 100px;
+	background-color: turquoise;
+}
+
+.main {
+	position: absolute;
+	top: 50px;
+	left: 180px;
+}
+
+.main>li {
+	float: left;
+	z-index: 2;
+	text-align: center;
+}
+
+.main>li>a {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background-color: slategray;
+}
+
+.main>li:hover>a {
+	background-color: slateblue;
+	color: #fff;
+}
+
+.sub {
+	position: absolute;
+	display: none;
+	z-index: inherit;
+}
+
+.sub>li>a {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	background-color: cornflowerblue;
+}
+
+.sub>li:hover>a {
+	background-color: slateblue;
+	color: #fff;
+}
+
+
+.sub_bg {
+	z-index: 2;
+	position: absolute;
+	background-color: cornflowerblue;
+	width: 1200px;
+	height: 160px;
+	right: 0px;
+	display: none;
+	top : 100px;
+}

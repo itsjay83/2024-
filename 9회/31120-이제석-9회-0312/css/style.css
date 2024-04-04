@@ -1,0 +1,133 @@
+@charset "UTF-8";
+* {
+	margin: 0px; 
+	padding: 0px; 
+	list-style: none;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+
+body {
+	color : #333333;
+	background-color: #ffffff;
+	height: 650px;
+	width: 1000px;
+}
+
+.top {
+	float: left;
+	width: 200px;
+	height: 650px;
+	background-color: rgb(234, 233, 255);
+}
+
+.body_right {
+	float: left;
+	width: 800px;
+	height: 650px;
+	background-color: rgb(222, 220, 255);
+}
+
+.logo1 {
+	width: 200px;
+	height: 100px;
+}
+
+.menu1 {
+	width: 200px;
+	height: 550px;
+}
+
+.imgslide {
+	width: 800px;
+	height: 350px;
+}
+
+.contents {
+	width: 800px;
+	height: 200px;
+	background-color: rgb(67, 59, 255);
+}
+
+.bottom {
+	width: 800px;
+	height: 100px;
+}
+
+.nogal {
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+
+.banner {
+	width: 250px;
+	height: 200px;
+	float: left;
+}
+
+.sc {
+	width: 250px;
+	height: 200px;
+	float: left;
+}
+
+.logo2 {
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+.bottom {
+	width: 800px;
+	height: 100px;
+}
+
+.bottom_right {
+	float: left;
+	width: 600px;
+	height: 100px;
+}
+
+.menu2 {
+	width: 600px;
+	height: 50px;
+}
+
+.copy {
+	width: 600px;
+	height: 50px;
+}
+
+.main>li:hover>a {
+	background-color: steelblue;
+	color: white;
+}
+
+.main>li>a {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background-color: aquamarine;
+	text-align: center;
+}
+
+.sub>li>a {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background-color: turquoise;
+	text-align: center;
+}
+
+.sub {
+	display: none;
+}
+
+.sub>li:hover>a {
+	background-color: rgb(118, 165, 204);
+	color: white;
+}
