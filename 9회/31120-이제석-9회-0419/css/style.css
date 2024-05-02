@@ -1,0 +1,114 @@
+@charset "UTF-8";
+* {
+	margin: 0px; 
+	padding: 0px; 
+	list-style: none;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+
+body {
+	color : #333333;
+	background-color: #ffffff;
+	height: 650px;
+	width: 1000px;
+}
+
+.top {
+	float: left;
+	width: 200px;
+	height: 650px;
+}
+
+.body_right {
+	float: left;
+	width: 800px;
+	height: 650px;
+}
+
+.logo1 {
+	width: 200px;
+	height: 100px;
+	background-color: rgb(180, 179, 194);
+	position: relative;
+}
+
+.logo1 a, .logo2 a {
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 30px;
+}
+
+.menu1 {
+	width: 200px;
+	height: 550px;
+	background-color: rgb(234, 233, 255);
+}
+
+.imgslide {
+	width: 800px;
+	height: 350px;
+	background-color: rgb(222, 220, 255);
+}
+
+.contents {
+	width: 800px;
+	height: 200px;
+	
+}
+
+.nogal {
+	width: 300px;
+	height: 200px;
+	float: left;
+	background-color: rgb(185, 183, 222);
+}
+
+.banner {
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: rgb(160, 159, 192);
+}
+
+.sc {
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: rgb(169, 166, 218);
+}
+
+.logo2 {
+	float: left;
+	width: 200px;
+	height: 100px;
+	background-color: rgb(180, 179, 194);
+	position: relative;
+}
+
+.bottom {
+	width: 800px;
+	height: 100px;
+}
+
+.bottom_right {
+	float: left;
+	width: 600px;
+	height: 100px;
+}
+
+.menu2 {
+	width: 600px;
+	height: 50px;
+	background-color: rgb(204, 202, 245);
+}
+
+.copy {
+	width: 600px;
+	height: 50px;
+	background-color: rgb(212, 211, 238);
+}

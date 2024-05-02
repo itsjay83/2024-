@@ -1,0 +1,6 @@
+	// setInterval(() => {
+	// 	$(".imgs").animate({ marginLeft: -1200 }, 1000, () => {
+	// 		$(".imgs li:first").appendTo(".imgs");
+	// 		$(".imgs").css({ marginLeft: 0 });
+	// 	});
+	// }, 2000);

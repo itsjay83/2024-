@@ -1,0 +1,324 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+body {
+	margin: 0 auto;
+	width: 1200px;
+	height: 700px;
+	background-color: #fff;
+	position: relative;
+}
+
+.top {
+	width: 1200px;
+	height: 100px;
+}
+
+.logo {
+	float: left;
+	width: 200px;
+	height: 100px;
+	background-color: aqua;
+}
+
+.menu1 {
+	float: left;
+	width: 1000px;
+	height: 100px;
+	background-color: aquamarine;
+	position: relative;
+}
+
+.imgslide {
+	width: 1200px;
+	height: 300px;
+	background-color: turquoise;
+	position: relative;
+	overflow: hidden;
+}
+
+.imgs {
+	width: 1200px;
+	height: 900px;
+	position: absolute;
+}
+
+.imgslide li {
+	float: left;
+	width: 1200px;
+	height: 300px;
+	position: relative;
+}
+
+.imgslide img {
+	width: 1200px;
+	height: 300px;
+}
+
+.imgtext {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #fff;
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #3333338d;
+}
+
+/* .imgslide img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+} */
+
+.contents {
+	width: 1200px;
+	height: 200px;
+}
+
+.nogal {
+	float: left;
+	width: 400px;
+	height: 200px;
+	background-color: teal;
+	position: relative;
+}
+
+.nogal ul {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+
+#tab1, #tab2 {
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#tab2 {
+	left: 100px;
+}
+
+.disabled { 
+	background-color: aquamarine;
+}
+
+.notice {
+	/* display: none; */
+}
+
+.notice li {
+	width: 380px;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 10px;
+}
+
+.notxt {
+	float: right;
+}
+
+.gal {
+	display: none;
+}
+
+.gal li {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 25px 15px;
+	background-color: aqua;
+}
+
+.banner {
+	float: left;
+	width: 400px;
+	height: 200px;
+	background-color: steelblue;
+}
+.sc {
+	float: left;
+	width: 400px;
+	height: 200px;
+	background-color: skyblue;
+}
+
+.bottom {
+	width: 1200px;
+	height: 100px;
+}
+
+.bottom_left {
+	float: left;
+	width: 1000px;
+}
+
+.menu2 {
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	background-color: aqua;
+	text-align: center;
+	font-size: small;
+}
+
+.menu2 li {
+	float: left;
+}
+
+.menu2 a {
+	width: 200px;
+}
+
+.menu2 a:hover {
+	background-color: rgb(89, 212, 212);
+	color: white;
+}
+
+.copy {
+	width: 1000px;
+	height: 50px;
+	background-color: aquamarine;
+}
+
+.copy p{
+	font-size: small;
+	text-align: center;
+}
+
+.famsite {
+	float: left;
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+	background-color: turquoise;
+	position: relative;
+}
+
+#fselect {
+	width: 150px;
+	height: 50px;
+	/* margin-left: 50px; */
+	top: 25px;
+	left: 25px;
+	position: absolute;
+	text-align: center;
+}
+
+.main {
+	position: absolute;
+	top: 50px;
+	left: 180px;
+}
+
+.main>li {
+	float: left;
+	z-index: 2;
+	text-align: center;
+}
+
+.main>li>a {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background-color: slategray;
+}
+
+.main>li:hover>a {
+	background-color: slateblue;
+	color: #fff;
+}
+
+.sub {
+	position: absolute;
+	display: none;
+	z-index: inherit;
+}
+
+.sub>li>a {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	background-color: cornflowerblue;
+}
+
+.sub>li:hover>a {
+	background-color: slateblue;
+	color: #fff;
+}
+
+
+.sub_bg {
+	z-index: 2;
+	position: absolute;
+	background-color: cornflowerblue;
+	width: 1200px;
+	height: 160px;
+	right: 0px;
+	display: none;
+	top : 100px;
+}
+
+.popup {
+	width: 600px;
+	height: 470px;
+	background-color: silver;
+	margin: 0 auto;
+	position: absolute;
+	left: 300px;
+	top: 100px;
+	display: none;
+	z-index: 10;
+	padding: 15px;
+}
+
+.p_title {
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+}
+
+.p_body {
+	width: 600px;
+	height: 400px;
+}
+
+.p_bottom {
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+}
+
+button {
+	float: right;
+}
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 255, 255, 0.25);
+	display: none;
+}
