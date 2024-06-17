@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /* font-size: 20px;
+    font-weight: bold; */
+    list-style: none;
+    color: #333;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+body{
+    width: 1000px;
+    height: 650px;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.menu{
+    width: 200px;
+    height: 550px;
+}
+
+.imgslide{
+    width: 800px;
+    height: 350px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgs li {
+    position: absolute;
+}
+
+.imgtxt {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffffff93;
+    font-size: large;
+    font-weight: bold;
+}
+
+.contents{
+    width: 800px;
+    height: 200px;
+    float: right;
+}
+
+.nogal{
+    width: 300px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+
+#tab1, #tab2 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    /* float: left; */
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+#tab2 {
+    left: 105px;
+}
+
+.isOff {
+    background-color: bisque;
+}
+
+.notice, .gal {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 290px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.notice li {
+    width: 280px;
+    height: 30px;
+    line-height: 40px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    font-size: 11px;
+}
+
+.gal {
+    display: none;
+}
+
+.gal li {
+    width: 90px;
+    height: 100px;
+    float: left;
+    margin: 0 3px;
+    margin-top: 32px;
+}
+
+.gal img {
+    width: 90px;
+    height: 90px;
+}
+
+.banner{
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+
+.shortcut{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+
+.bottom{
+    width: 800px;
+    height: 100px;
+    float: right;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+
+.bottom_right{
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+
+
+.menu2{
+    width: 600px;
+    height: 50px;
+}
+
+
+.copy{
+    width: 600px;
+    height: 50px;
+}

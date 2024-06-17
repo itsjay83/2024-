@@ -212,6 +212,7 @@ body {
 	width: calc(100% - 400px);
 	height: 100%;
 	background-color: antiquewhite;
+	overflow: hidden;
 }
 
 .imgs {
@@ -222,13 +223,29 @@ body {
 .imgs li {
 	float: left;
 	width: calc(100% / 3);
-	height: 100%;
+	/* height: 100%; */
 	overflow: hidden;
+	position: relative;
 }
 
 .imgs img {
 	width: 100%;
-	height: 100%;
+	height: calc(100vh - 120px);
+}
+
+.stxt {
+	z-index: 10;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #ffffff68;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 50px;
+	font-weight: bold;
+	overflow: hidden;
 }
 
 .clear {
